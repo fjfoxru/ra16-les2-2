@@ -28,6 +28,50 @@
   color: #61dafb;
 }
 
+.cards {
+  display: flex;
+  width: 1024px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card {
+  background: #f5f5f5;
+  flex-grow: 0;
+  flex-basis: 30%;
+  max-width: 30%;
+  margin-bottom: 30px;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 10px;
+}
+
+
+.item {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.list {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.item__img {
+  height: 200px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
